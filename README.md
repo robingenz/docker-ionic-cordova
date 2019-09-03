@@ -6,7 +6,7 @@ Docker image for building Ionic apps with Cordova.
 
 ### Pull image
 
-Pull from GitHub Container Registry:  
+Pull from Docker Hub:  
 `docker pull robinge/ionic-cordova:latest`
 
 ### Build image
