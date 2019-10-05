@@ -1,27 +1,27 @@
 # docker-ionic-cordova
 
-Docker image for building Ionic apps with Cordova.
+Docker image for building [Ionic](https://ionicframework.com/) apps with [Cordova](https://cordova.apache.org/).
 
 ## How to use this image
 
 ### Pull image
 
-Pull from Docker Hub:  
+Pull from [Docker Hub](https://hub.docker.com/r/robinge/ionic-cordova):  
 `docker pull robinge/ionic-cordova:latest`
 
 ### Build image
 
-Or build from GitHub:  
+Or build from [GitHub](https://github.com/robingenz/docker-ionic-cordova):  
 `docker build -t robinge/ionic-cordova github.com/robingenz/docker-ionic-cordova`
 
 Available build arguments:
 
--   JAVA_VERSION
--   NODEJS_VERSION
--   ANDROID_SDK_VERSION
--   ANDROID_BUILD_TOOLS_VERSION
--   IONIC_CLI_VERSION
--   CORDOVA_CLI_VERSION
+- JAVA_VERSION
+- NODEJS_VERSION
+- ANDROID_SDK_VERSION
+- ANDROID_BUILD_TOOLS_VERSION
+- IONIC_CLI_VERSION
+- CORDOVA_CLI_VERSION
 
 ### Run image
 
