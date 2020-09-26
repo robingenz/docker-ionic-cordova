@@ -30,9 +30,9 @@ Run the docker image:
 
 ## CI Configuration
 
-### Gitlab
+### GitLab
 
-Here is a sample .gitlab-ci.yml file:
+Here is a sample `.gitlab-ci.yml` file:
 
 ```
 image: robinge/ionic-cordova:latest
