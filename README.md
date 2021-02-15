@@ -33,7 +33,7 @@ docker run -it robingenz/ionic-cordova
 
 Here is a sample `.gitlab-ci.yml` file:
 
-```
+```yml
 image: robingenz/ionic-cordova
 
 stages:
