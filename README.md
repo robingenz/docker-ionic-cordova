@@ -7,12 +7,16 @@ Docker image for building [Ionic](https://ionicframework.com/) apps with [Cordov
 ### Pull image
 
 Pull from [Docker Hub](https://hub.docker.com/r/robinge/ionic-cordova):  
-`docker pull robinge/ionic-cordova:latest`
+```
+docker pull robinge/ionic-cordova:latest
+```
 
 ### Build image
 
 Or build from [GitHub](https://github.com/robingenz/docker-ionic-cordova):  
-`docker build -t robinge/ionic-cordova github.com/robingenz/docker-ionic-cordova`
+```
+docker build -t robinge/ionic-cordova github.com/robingenz/docker-ionic-cordova
+```
 
 Available build arguments:
 
@@ -26,7 +30,9 @@ Available build arguments:
 ### Run image
 
 Run the docker image:  
-`docker run -it robinge/ionic-cordova`
+```
+docker run -it robinge/ionic-cordova
+```
 
 ## CI Configuration
 
